@@ -2,16 +2,20 @@
 ## aMAZEing
 
 _PREPARED FOR_
+
 José Luis Martin Romera
+
 joseluism@faculty.ie.edu 
 
 _PREPARED BY_
+
 Gonzalo Calleja Palacios, Clara Dubois Ribó, and Marlene Lantz
+
 gcalleja.ieu2017@student.ie.edu
 cdubois.ieu2017@student.ie.edu
 mlantz.ieu2016@student.ie.edu  
 
-# xecutive Summary
+# Executive Summary
 This project undertaken by our group aims to test our knowledge and application abilities of not only Programming concepts seen in but also programming itself. It tests to see if we can think and figure out problems in new ways. From a technical point of view, many challenges were faced such as developing of the algorithm, decoupling of the code, and getting the interactions among classes to function properly. 
 
 # 1. Project Overview
@@ -26,7 +30,13 @@ In this section we provide a detailed table of all tasks associated with the cre
 # 3. Software Development Iterations:
 We decided that, as this project is complex in terms of architecture, design and features, we will phase it through the use of  iterations thereby employing short term goals that can be achieved one by one. These iterations are placed in order where 1 refers to the first iteration and 10, the last.
 
-# 4. Obstacles
+# 4. Scope
+## In Scope
+The scope of the project consists of creating a labyrinth game in which a player must find the start and end of the maze. Moreover the maze settings are generated randomly and a difficulty level can be chosen. The player cannot go through walls and has a “fog of war” lighting mode so as to make things more game-like in terms of objective and play style. 
+
+## Out Scope
+
+# 5. Obstacles
 * Time Constraints
 * Using new libraries (and learning how they work)
 * Interaction between Classes
