@@ -2,8 +2,6 @@ package com.company;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class ViewMaze extends JPanel {
 
@@ -20,15 +18,10 @@ public class ViewMaze extends JPanel {
         }else{
             this.expectedDimension = new Dimension(expectedDimension.width, expectedDimension.width);
         }
-        //setFocusable(true);
-        //requestFocus();
         setOpaque(true);
         setPreferredSize(expectedDimension);
         setSize(expectedDimension);
         setBackground(GamePanel.BACKGROUND_COLOR);
-
-        //controller = new Controller(new Model(), this);
-        //addKeyListener(controller);
 
         playing = false;
 

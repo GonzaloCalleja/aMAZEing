@@ -199,8 +199,11 @@ public class GamePanel extends JPanel {
         newGame.setBorderPainted(false);
 
         endGame = new JPanel(new BorderLayout());
-        endGame.setSize(expectedDimension);
+        endGame.setSize(this.getPreferredSize());
         endGame.setOpaque(false);
+        endGame.setVisible(false);
+        endGame.setLayout(null);
+
         congratulations = new JLabel();
         congratulations.setText("CONGRATULATIONS");
         congratulations.setSize(expectedDimension);
@@ -208,7 +211,8 @@ public class GamePanel extends JPanel {
         congratulations.setVerticalAlignment(JLabel.CENTER);
         congratulations.setFont(new Font("Verdana", Font.BOLD, 30));
         congratulations.setForeground(Color.white);
-        endGame.add(congratulations, BorderLayout.CENTER);
+        endGame.add(congratulations);
+        congratulations.setBounds(900, 200, 200, 50);
 
         score = new JLabel();
         score.setText("SCORE : 0");
@@ -217,9 +221,9 @@ public class GamePanel extends JPanel {
         score.setVerticalAlignment(JLabel.BOTTOM);
         score.setFont(new Font("Verdana", Font.BOLD, 30));
         score.setForeground(Color.white);
-        endGame.add(score, BorderLayout.CENTER);
-        firstLayers.add(endGame, new Integer(5));
-        endGame.setVisible(false);
+        endGame.add(score);
+        endGame.setBounds(900, 300, 200, 50);;
+        firstLayers.add(endGame, new Integer(500));
 
         add(firstLayers, BorderLayout.CENTER);
     }

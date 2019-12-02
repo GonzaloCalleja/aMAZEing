@@ -7,12 +7,9 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 public class Main {
-
-
     public static void main(String[] args) {
         Controller app = new Controller(new Model(), new GamePanel());
         app.startApp();
-
     }
 }
 
@@ -47,7 +44,7 @@ class Model{
     static final String[] DIFICULTY_LIST = new String[]{"Easy", "Medium", "Dificult", "Extreme"};
     static final int[] DIFICULTY_LIST_NUMBERS = new int[]{EASY_DIMENSION, MEDIUM_DIMENSION, DIFFICULT_DIMENSION, EXTREME_DIMENSION};
 
-    static final int TIME_LIMIT = 30000;
+    static final int TIME_LIMIT = 300000;
     static final long LOSING_SCORE = 0;
 
     static final boolean SHADOW_DEFAULT = false;
@@ -64,7 +61,7 @@ class Model{
         playing = false;
         shadow=SHADOW_DEFAULT;
         chosenDificulty = EASY_DIMENSION;
-        score = (long)0;
+        score = (long) 0;
     }
 
     public void newGame(Cell[][] labyrinth) {
@@ -100,7 +97,7 @@ class Controller implements KeyListener, ActionListener {
     }
 
     public void updateNewGame(){
-        model.score = (long)0;
+        model.score = System.currentTimeMillis();
         view.updateNewGame(model);
     }
     public void updatePlayer(){
@@ -153,6 +150,8 @@ class Controller implements KeyListener, ActionListener {
                 }
                 view.scoreMenu.setText(model.score+"");
                 view.congratulationsMessage(model.score);
+                view.repaint();
+                System.out.println(model.score);
                 model.playing= false;
             }
         }
