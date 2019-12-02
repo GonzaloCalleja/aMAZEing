@@ -32,12 +32,14 @@ In this section we provide a detailed table of all tasks associated with the cre
 
 # 3. Software Development Iterations:
 We decided that, as this project is complex in terms of architecture, design and features, we will phase it through the use of  iterations thereby employing short term goals that can be achieved one by one. These iterations are placed in order where 1 refers to the first iteration and 10, the last.
+![](https://user-images.githubusercontent.com/42964691/70002226-aacf2500-155f-11ea-9110-3d644ef4989e.png)
 
 # 4. Scope
 ## In Scope
 The scope of the project consists of creating a labyrinth game in which a player must find the start and end of the maze. Moreover the maze settings are generated randomly and a difficulty level can be chosen. The player cannot go through walls and has a “fog of war” lighting mode so as to make things more game-like in terms of objective and play style. 
 
 ## Out Scope
+A 2 player option was considered, however due to time constraints was established to be outside of the scope. Moreover the online option of the video game is also outside the scope of this project. Lastly some additional functionalities that we did consider, however again, due to time constraints, are placed outside of the scope. These include: choosing of game themes, choosing of game “sprites”, saving and sharing of scores, etc. 
 
 # 5. Obstacles
 * Time Constraints
@@ -52,6 +54,8 @@ The scope of the project consists of creating a labyrinth game in which a player
 The above are a list of technical obstacles that we either overcome through the sheer power of thinking and of course (some) google. Moreover some of the obstacles stated are challenges that we were not able to overcome, but given more time we would have been able to figure out a solution. In the future we think that a better mitigation strategy should have been delineated so as to ensure the success of all the features we wanted within the game. 
 
 # 6. Software
+_For further detail, please see our document_
+
 ## 6.1. IntelliJ and GitHub
 ## 6.2. Libraries
 ## 6.3. Logic of the code
