@@ -24,6 +24,9 @@ Due to a tight time constraints, we needed to ensure integrity and consistency t
 # 2. Requirements
 In this section we provide a detailed table of all tasks associated with the creation of the game and how important they are. We then proceed to prioritise them based on what we feel is most essential in the event that we do not have time to code everything and need to leave out functionality.
 
+![](https://user-images.githubusercontent.com/42964691/70002094-54fa7d00-155f-11ea-929a-dbcd60a57a50.png)
+![](https://user-images.githubusercontent.com/42964691/70002086-52982300-155f-11ea-9261-b34d27d53537.png)
+
 
 ** Note: The priority scale is from 1 to 5, where 1 is the most important to have and 5 is the least important and should only be added if time permits.
 
