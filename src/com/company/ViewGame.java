@@ -212,8 +212,8 @@ public class ViewGame extends JPanel {
         newGame.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 newGame.setContentAreaFilled(true);
-                newGame.setBorderPainted(false);
                 newGame.setBackground(TRANSPARENT_COLOR);
+                repaint();
             }
 
             public void mouseExited(java.awt.event.MouseEvent evt) {
