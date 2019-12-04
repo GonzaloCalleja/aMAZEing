@@ -57,14 +57,8 @@ The above are a list of technical obstacles that we either overcome through the 
 _For further detail, please see our document_
 
 ## 6.1. IntelliJ and GitHub
-During this project, IntelliJ was used as our IDE, and GitHub as our VCS, so this helped us keep the code neat, and allowed us to keep track of all changes to the code as well as collaborate in an effective manner.
 ## 6.2. Libraries
-For this project, we used the AWT and Swing libraries to design the GUI, and the rest of the program was produced using standard java, without needing to import any additional libraries.
 ## 6.3. Architecture
-The code has been divided into 3 differnt sections following the MVC design pattern:
-* Model: To hold all data about the game objects - player and maze
-* View: Has knowledge of how to draw elements in the GUI
-* Controler: Listens to all GUI events (meaning it listens to the user) and updates the Model and View.
 ## 6.4. Classes
 ## 6.5. Logic of the Code
 ## 6.6. Maze generator Algorithm
