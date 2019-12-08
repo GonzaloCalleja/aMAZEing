@@ -25,7 +25,7 @@ Due to a tight time constraints, we needed to ensure integrity and consistency t
 In this section we provide a detailed table of all tasks associated with the creation of the game and how important they are. We then proceed to prioritise them based on what we feel is most essential in the event that we do not have time to code everything and need to leave out functionality.
 
 ![](https://user-images.githubusercontent.com/42964691/70002094-54fa7d00-155f-11ea-929a-dbcd60a57a50.png)
-![](https://user-images.githubusercontent.com/42964691/70002086-52982300-155f-11ea-9261-b34d27d53537.png)
+![](https://user-images.githubusercontent.com/42964691/70391381-d7a69080-19d4-11ea-8cf7-d1c55873ba82.png)
 
 
 ** Note: The priority scale is from 1 to 5, where 1 is the most important to have and 5 is the least important and should only be added if time permits.
@@ -54,7 +54,6 @@ A 2 player option was considered, however due to time constraints was establishe
 The above are a list of technical obstacles that we either overcome through the sheer power of thinking and of course (some) google. Moreover some of the obstacles stated are challenges that we were not able to overcome, but given more time we would have been able to figure out a solution. In the future we think that a better mitigation strategy should have been delineated so as to ensure the success of all the features we wanted within the game. 
 
 # 6. Software
-_For further detail, please see our document_
 
 ## 6.1. IntelliJ and GitHub
 Throughout this project, IntelliJ was used as our IDE (Intelligent Environment), and GitHub as our VCS (Version Control). This helped us keep the code neat, and allowed us to keep track of all changes to the code. Moreover, it facilitate collaboration as we were able to fork and clone projects to work on it from different locations. 
